@@ -7,14 +7,12 @@ body {
 }
 
 header {
-    height: 100px;
     padding: 10px;
     background-color: aqua;
 }
 
 nav {
-    height: 60px;
-    padding-top: 20px;
+    overflow: hidden;
     background-color: cadetblue;
 }
 
