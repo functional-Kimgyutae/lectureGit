@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "noto";
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+header > div {
+    width: 1140px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+header > div > nav {
+    margin-left: 200px;
+}
+header > div > nav > a {
+    text-decoration: none;
+    color: #444;
+    padding: 0px 22px;
+    font-size: 16px;
+    font-weight: 400;
+}
+#visual {
+    background-image: url("../img/vis.webp");
+    height: 600px;
+    background-size: cover;
+    position: relative;
+}
+#visual > p {
+    position: absolute;
+    width: auto;
+    top: 20%;
+    left: 50%;
+    font-size: 50px;
+    font-weight: 500;
+    color: #fff;
+    transform: translateX(-50%);
+}
+
+#content {
+    height: 280px;  
+    text-align: center;
+}
+
+#content > h2 {
+    padding-top: 90px;
+    font-size: 30px;
+    font-weight: 500;
+}
+#content > p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#intro {
+    width: 100%;
+    background-color: #f6f3f2;
+}
+#intro > h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight:500;
+    padding-top: 70px;
+}
+
+#intro .card {
+    width: 1120px;
+    height: 420px;
+    display: flex;
+    margin: 50px auto;
+    background-color: #fff;
+}
+#intro .img {
+    width: 560px;
+    height: 420px;
+    position: relative;
+}
+#intro input {
+    display: none;
+}
+
+#intro .img > div {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+
+#intro label {
+    color: #fff;
+    font-size: 13px;
+    padding-bottom: 10px;
+    padding: 10px 10px;
+    margin: 0 10px;
+    border-bottom: 3px solid #fff;
+}
