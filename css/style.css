@@ -65,6 +65,7 @@ header > div > nav > a {
 #intro {
     width: 100%;
     background-color: #f6f3f2;
+    padding-bottom: 50px;
 }
 #intro > h2 {
     text-align: center;
@@ -84,11 +85,15 @@ header > div > nav > a {
     width: 560px;
     height: 420px;
     position: relative;
+    overflow: hidden;
 }
 #intro input {
     display: none;
 }
-
+#intro .img img {
+    opacity: 0;
+    position: absolute;
+}
 #intro .img > div {
     position: absolute;
     bottom: 40px;
@@ -101,5 +106,197 @@ header > div > nav > a {
     padding-bottom: 10px;
     padding: 10px 10px;
     margin: 0 10px;
+}
+#intro .card .text {
+    padding: 50px;
+}
+
+#intro .card .text h2{
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 500;
+}
+#intro .card .text> h4{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+#intro .card .text > p {
+    padding: 10px 0px;
+    font-size: 14px;
+    font-weight: 200;
+}
+#intro .text ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height:  75px;
+}
+#intro .text ul li {
+    width: 115px;
+    height: 100%;
+    border-left: 1px solid #e5e5e5;
+    padding: 10px 10px;
+}
+#intro .text ul li:nth-child(1) {
+    border-left: none;
+}
+#intro .text ul p {
+    font-size: 11px;
+    font-weight: 200;
+}
+#intro .text ul h4 {
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+#intro .text .abox {
+    margin-top: 30px;
+    width: 100%;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#intro .text .abox a {
+    display: block;
+    width: 140px;
+    color: #fff;
+    font-weight: 200;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px 0px;
+    background-color: #002c5e;
+
+}
+
+#intro .card input#car1:checked ~ div > .car  {
     border-bottom: 3px solid #fff;
+}
+#intro .card input#int1:checked ~ div> .int {
+    border-bottom: 3px solid #fff;
+}
+#intro .card input#car1:checked ~ img:nth-child(3)  {
+    opacity: 1;
+}
+#intro .card input#int1:checked ~ img:nth-child(4)  {
+    opacity: 1;
+}
+
+#intro .card input#car2:checked ~ div > .car  {
+    border-bottom: 3px solid #fff;
+}
+#intro .card input#int2:checked ~ div> .int {
+    border-bottom: 3px solid #fff;
+}
+#intro .card input#car2:checked ~ img:nth-child(3)  {
+    opacity: 1;
+}
+#intro .card input#int2:checked ~ img:nth-child(4)  {
+    opacity: 1;
+}
+
+#intro .card input#car3:checked ~ div > .car  {
+    border-bottom: 3px solid #fff;
+}
+#intro .card input#int3:checked ~ div> .int {
+    border-bottom: 3px solid #fff;
+}
+#intro .card input#car3:checked ~ img:nth-child(3)  {
+    opacity: 1;
+}
+#intro .card input#int3:checked ~ img:nth-child(4)  {
+    opacity: 1;
+}
+
+#intro .card input#car4:checked ~ div > .car  {
+    border-bottom: 3px solid #fff;
+}
+#intro .card input#int4:checked ~ div> .int {
+    border-bottom: 3px solid #fff;
+}
+#intro .card input#car4:checked ~ img:nth-child(3)  {
+    opacity: 1;
+}
+#intro .card input#int4:checked ~ img:nth-child(4)  {
+    opacity: 1;
+}
+
+#intro .card input#car5:checked ~ div > .car  {
+    border-bottom: 3px solid #fff;
+}
+#intro .card input#int5:checked ~ div> .int {
+    border-bottom: 3px solid #fff;
+}
+#intro .card input#car5:checked ~ img:nth-child(3)  {
+    opacity: 1;
+}
+#intro .card input#int5:checked ~ img:nth-child(4)  {
+    opacity: 1;
+}
+
+#intro .card input#car6:checked ~ div > .car  {
+    border-bottom: 3px solid #fff;
+}
+#intro .card input#int6:checked ~ div> .int {
+    border-bottom: 3px solid #fff;
+}
+#intro .card input#car6:checked ~ img:nth-child(3)  {
+    opacity: 1;
+}
+#intro .card input#int6:checked ~ img:nth-child(4)  {
+    opacity: 1;
+}
+
+#intro .card input#car7:checked ~ div > .car  {
+    border-bottom: 3px solid #fff;
+}
+#intro .card input#int7:checked ~ div> .int {
+    border-bottom: 3px solid #fff;
+}
+#intro .card input#car7:checked ~ img:nth-child(3)  {
+    opacity: 1;
+}
+#intro .card input#int7:checked ~ img:nth-child(4)  {
+    opacity: 1;
+}
+#intro .card input#car8:checked ~ div > .car  {
+    border-bottom: 3px solid #fff;
+}
+#intro .card input#int8:checked ~ div> .int {
+    border-bottom: 3px solid #fff;
+}
+#intro .card input#car8:checked ~ img:nth-child(3)  {
+    opacity: 1;
+}
+#intro .card input#int8:checked ~ img:nth-child(4)  {
+    opacity: 1;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: #000;
+    color: #aaa;
+    display: flex;
+    padding-left: 400px;
+    padding-top: 50px;
+    font-weight: 200;
+    font-size: 14px;
+}
+footer img {
+    float: left;
+}
+footer ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+footer ul li {
+    padding: 0px 10px;
+    margin: 10px 0;
+}
+
+footer p {
+    padding-left: 10px;
 }

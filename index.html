@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.min.css">
 </head>
 <body>
     <header>
@@ -34,13 +35,13 @@
         <h2>N 차종 보기</h2>
         <div class="card">
             <div class="img">
-                <input type="radio" id="car1" >
-                <input type="radio" id="int1" >
+                <input type="radio" name="card1" id="car1" checked >
+                <input type="radio" name="card1" id="int1" >
                 <img src="https://www.hyundai.com/static/images/lineUp/N/JS05_EXT.jpg" alt="">
                 <img src="https://www.hyundai.com/static/images/lineUp/N/JS05_INT.jpg" alt="">
                 <div>
-                    <label for="car1">Exterior</label>
-                    <label for="int1">interior</label>
+                    <label class="car" for="car1">Exterior</label>
+                    <label class="int" for="int1">interior</label>
                 </div>
             </div>
             <div class="text">
@@ -61,25 +62,56 @@
             </div>
         </div>
         <div class="card">
+            <div class="text">
+                <h2>AVANTE N</h2>
+                <h4>일상을 짜릿하게</h4>
+                <p>스타일에서 드라이빙까지, <br>
+                    두근거림은 계속되어야 합니다.</p>
+                <ul>
+                    <li><p>가격</p> <h4>3,212 만원 ~</h4></li>
+                    <li><p>연비</p> <h4>~10.7km/l</h4></li>
+                    <li><p>승차정원</p> <h4>5 명</h4></li>
+                    <li><p>배기량</p> <h4>~1,988cc</h4></li>
+                </ul>
+                <div class="abox">
+                    <a href="#">자세히 보기</a>
+                    <a href="#">내 차 만들기</a>
+                    <a href="#">구매 상담 신청</a>
+                </div>
+            </div>
             <div class="img">
-                <input type="radio" id="car1">
-                <input type="radio" id="int1">
-                <img src="https://www.hyundai.com/static/images/lineUp/N/JS05_EXT.jpg" alt="">
-                <img src="https://www.hyundai.com/static/images/lineUp/N/JS05_INT.jpg" alt="">
+                <input type="radio" name="card2" id="car2" checked>
+                <input type="radio" name="card2" id="int2">
+                <img src="https://www.hyundai.com/static/images/lineUp/N/CN06_EXT.jpg" alt="">
+                <img src="https://www.hyundai.com/static/images/lineUp/N/CN06_INT.jpg" alt="">
                 <div>
-                    <label for="car1">Exterior</label>
-                    <label for="int1">interior</label>
+                    <label for="car2">Exterior</label>
+                    <label for="int2">interior</label>
+                </div>
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="img">
+                <input type="radio" name="card3" id="car3" checked>
+                <input type="radio" name="card3" id="int3">
+                <img src="https://www.hyundai.com/static/images/lineUp/N/OS14_EXT.jpg" alt="">
+                <img src="https://www.hyundai.com/static/images/lineUp/N/OS14_INT.jpg" alt="">
+                <div>
+                    <label for="car3">Exterior</label>
+                    <label for="int3">interior</label>
                 </div>
             </div>
             <div class="text">
-                <h2></h2>
-                <h4></h4>
-                <p></p>
+                <h2>KONA N</h2>
+                <h4>일상을 짜릿하게</h4>
+                <p>언제, 어디서나 운전하는 모든 순간 <br>
+                    KONA N과 함께하면 당신의 일상은 더욱 짜릿해집니다.</p>
                 <ul>
-                    <li><p>가격</p> <h4></h4></li>
-                    <li><p>연비</p> <h4></h4></li>
-                    <li><p>승차정원</p> <h4></h4></li>
-                    <li><p>배기량</p> <h4></h4></li>
+                    <li><p>가격</p> <h4>3,418 만원 ~</h4></li>
+                    <li><p>연비</p> <h4>~10.0km/l</h4></li>
+                    <li><p>승차정원</p> <h4>5 명</h4></li>
+                    <li><p>배기량</p> <h4>~1,998cc</h4></li>
                 </ul>
                 <div class="abox">
                     <a href="#">자세히 보기</a>
@@ -89,25 +121,54 @@
             </div>
         </div>
         <div class="card">
+            <div class="text">
+                <h2>AVANTE N Line</h2>
+                <h4>겉과 속 모두 대담해진 아반떼</h4>
+                <p>보다 특별한 운전의 즐거움으로 <br>
+                    당신의 일상을 깨우고 다이내믹한 에너지를 전달합니다.</p>
+                <ul>
+                    <li><p>가격</p> <h4>2,179 만원 ~</h4></li>
+                    <li><p>연비</p> <h4>~12.8km/l</h4></li>
+                    <li><p>승차정원</p> <h4>5 명</h4></li>
+                    <li><p>배기량</p> <h4>~1,598cc</h4></li>
+                </ul>
+                <div class="abox">
+                    <a href="#">자세히 보기</a>
+                    <a href="#">내 차 만들기</a>
+                    <a href="#">구매 상담 신청</a>
+                </div>
+            </div>
             <div class="img">
-                <input type="radio" id="car1">
-                <input type="radio" id="int1">
-                <img src="https://www.hyundai.com/static/images/lineUp/N/JS05_EXT.jpg" alt="">
-                <img src="https://www.hyundai.com/static/images/lineUp/N/JS05_INT.jpg" alt="">
+                <input type="radio" name="card4" id="car4" checked>
+                <input type="radio" name="card4" id="int4">
+                <img src="https://www.hyundai.com/static/images/lineUp/N/CN02_EXT.jpg" alt="">
+                <img src="https://www.hyundai.com/static/images/lineUp/N/CN02_INT.jpg" alt="">
                 <div>
-                    <label for="car1">Exterior</label>
-                    <label for="int1">interior</label>
+                    <label for="car4">Exterior</label>
+                    <label for="int4">interior</label>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img">
+                <input type="radio" name="card5" id="car5" checked>
+                <input type="radio" name="card5" id="int5">
+                <img src="https://www.hyundai.com/static/images/lineUp/N/DN10_EXT.jpg" alt="">
+                <img src="https://www.hyundai.com/static/images/lineUp/N/DN10_INT.jpg" alt="">
+                <div>
+                    <label for="car5">Exterior</label>
+                    <label for="int5">interior</label>
                 </div>
             </div>
             <div class="text">
-                <h2></h2>
-                <h4></h4>
-                <p></p>
+                <h2>SONATA N Line</h2>
+                <h4>Performance starts now.</h4>
+                <p>당신의 라이프스타일이 지금까지 경험하지 못한 감성으로 쏘나타 N Line과 함께 다이내믹하게 진화합니다.</p>
                 <ul>
-                    <li><p>가격</p> <h4></h4></li>
-                    <li><p>연비</p> <h4></h4></li>
-                    <li><p>승차정원</p> <h4></h4></li>
-                    <li><p>배기량</p> <h4></h4></li>
+                    <li><p>가격</p> <h4>3,074 만원 ~</h4></li>
+                    <li><p>연비</p> <h4>~11.1km/l</h4></li>
+                    <li><p>승차정원</p> <h4>5 명</h4></li>
+                    <li><p>배기량</p> <h4>~2,497cc</h4></li>
                 </ul>
                 <div class="abox">
                     <a href="#">자세히 보기</a>
@@ -117,25 +178,53 @@
             </div>
         </div>
         <div class="card">
+            <div class="text">
+                <h2>KONA N Line</h2>
+                <h4>Be NIMBLE!</h4>
+                <p>고성능 N의 감성을 담은 코나 N Line만의 스포티한 디자인과 다이내믹한 <br> 드라이빙으로 더욱 특별한 순간을 즐겨보세요.</p>
+                <ul>
+                    <li><p>가격</p> <h4>2,460 만원 ~</h4></li>
+                    <li><p>연비</p> <h4>~12.7km/l</h4></li>
+                    <li><p>승차정원</p> <h4>5 명</h4></li>
+                    <li><p>배기량</p> <h4>~1,598cc</h4></li>
+                </ul>
+                <div class="abox">
+                    <a href="#">자세히 보기</a>
+                    <a href="#">내 차 만들기</a>
+                    <a href="#">구매 상담 신청</a>
+                </div>
+            </div>
             <div class="img">
-                <input type="radio" id="car1">
-                <input type="radio" id="int1">
-                <img src="https://www.hyundai.com/static/images/lineUp/N/JS05_EXT.jpg" alt="">
-                <img src="https://www.hyundai.com/static/images/lineUp/N/JS05_INT.jpg" alt="">
+                <input type="radio" name="card6" id="car6" checked>
+                <input type="radio" name="card6" id="int6">
+                <img src="https://www.hyundai.com/static/images/lineUp/N/OS13_EXT.jpg" alt="">
+                <img src="https://www.hyundai.com/static/images/lineUp/N/OS13_INT.jpg" alt="">
                 <div>
-                    <label for="car1">Exterior</label>
-                    <label for="int1">interior</label>
+                    <label for="car6">Exterior</label>
+                    <label for="int6">interior</label>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img">
+                <input type="radio" name="card7" id="car7" checked>
+                <input type="radio" name="card7" id="car7">
+                <img src="https://www.hyundai.com/static/images/lineUp/N/NX03_EXT.jpg" alt="">
+                <img src="https://www.hyundai.com/static/images/lineUp/N/NX03_INT.jpg" alt="">
+                <div>
+                    <label for="car7">Exterior</label>
+                    <label for="int7">interior</label>
                 </div>
             </div>
             <div class="text">
-                <h2></h2>
+                <h2>TUCSON N Line</h2>
                 <h4></h4>
-                <p></p>
+                <p>여유로운 공간성은 물론, 역동적인 N Line 전용 디자인이 더해진 <br> 투싼 N Line을 즐기실 수 있습니다.</p>
                 <ul>
-                    <li><p>가격</p> <h4></h4></li>
-                    <li><p>연비</p> <h4></h4></li>
-                    <li><p>승차정원</p> <h4></h4></li>
-                    <li><p>배기량</p> <h4></h4></li>
+                    <li><p>가격</p> <h4>3,009 만원 ~</h4></li>
+                    <li><p>연비</p> <h4>~13.9km/l</h4></li>
+                    <li><p>승차정원</p> <h4>5 명</h4></li>
+                    <li><p>배기량</p> <h4>~1,998cc</h4></li>
                 </ul>
                 <div class="abox">
                     <a href="#">자세히 보기</a>
@@ -145,25 +234,15 @@
             </div>
         </div>
         <div class="card">
-            <div class="img">
-                <input type="radio" id="car1">
-                <input type="radio" id="int1">
-                <img src="https://www.hyundai.com/static/images/lineUp/N/JS05_EXT.jpg" alt="">
-                <img src="https://www.hyundai.com/static/images/lineUp/N/JS05_INT.jpg" alt="">
-                <div>
-                    <label for="car1">Exterior</label>
-                    <label for="int1">interior</label>
-                </div>
-            </div>
             <div class="text">
-                <h2></h2>
+                <h2>TUCSON N Line Hybrid</h2>
                 <h4></h4>
-                <p></p>
+                <p>여유로운 공간성은 물론, 역동적인 N Line 전용 디자인이 더해진 투싼 <br> N Line Hybrid를 즐기실 수 있습니다.</p>
                 <ul>
-                    <li><p>가격</p> <h4></h4></li>
-                    <li><p>연비</p> <h4></h4></li>
-                    <li><p>승차정원</p> <h4></h4></li>
-                    <li><p>배기량</p> <h4></h4></li>
+                    <li><p>가격</p> <h4>3,345 만원 ~</h4></li>
+                    <li><p>연비</p> <h4>~15.8km/l</h4></li>
+                    <li><p>승차정원</p> <h4>5 명</h4></li>
+                    <li><p>배기량</p> <h4>~1,598cc</h4></li>
                 </ul>
                 <div class="abox">
                     <a href="#">자세히 보기</a>
@@ -171,104 +250,30 @@
                     <a href="#">구매 상담 신청</a>
                 </div>
             </div>
-        </div>
-        <div class="card">
             <div class="img">
-                <input type="radio" id="car1">
-                <input type="radio" id="int1">
-                <img src="https://www.hyundai.com/static/images/lineUp/N/JS05_EXT.jpg" alt="">
-                <img src="https://www.hyundai.com/static/images/lineUp/N/JS05_INT.jpg" alt="">
+                <input type="radio" name="card8" id="car8" checked>
+                <input type="radio" name="card8" id="int8">
+                <img src="https://www.hyundai.com/static/images/lineUp/N/NX04_EXT.jpg" alt="">
+                <img src="https://www.hyundai.com/static/images/lineUp/N/NX04_INT.jpg" alt="">
                 <div>
-                    <label for="car1">Exterior</label>
-                    <label for="int1">interior</label>
-                </div>
-            </div>
-            <div class="text">
-                <h2></h2>
-                <h4></h4>
-                <p></p>
-                <ul>
-                    <li><p>가격</p> <h4></h4></li>
-                    <li><p>연비</p> <h4></h4></li>
-                    <li><p>승차정원</p> <h4></h4></li>
-                    <li><p>배기량</p> <h4></h4></li>
-                </ul>
-                <div class="abox">
-                    <a href="#">자세히 보기</a>
-                    <a href="#">내 차 만들기</a>
-                    <a href="#">구매 상담 신청</a>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="img">
-                <input type="radio" id="car1">
-                <input type="radio" id="int1">
-                <img src="https://www.hyundai.com/static/images/lineUp/N/JS05_EXT.jpg" alt="">
-                <img src="https://www.hyundai.com/static/images/lineUp/N/JS05_INT.jpg" alt="">
-                <div>
-                    <label for="car1">Exterior</label>
-                    <label for="int1">interior</label>
-                </div>
-            </div>
-            <div class="text">
-                <h2></h2>
-                <h4></h4>
-                <p></p>
-                <ul>
-                    <li><p>가격</p> <h4></h4></li>
-                    <li><p>연비</p> <h4></h4></li>
-                    <li><p>승차정원</p> <h4></h4></li>
-                    <li><p>배기량</p> <h4></h4></li>
-                </ul>
-                <div class="abox">
-                    <a href="#">자세히 보기</a>
-                    <a href="#">내 차 만들기</a>
-                    <a href="#">구매 상담 신청</a>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="img">
-                <input type="radio" id="car1">
-                <input type="radio" id="int1">
-                <img src="https://www.hyundai.com/static/images/lineUp/N/JS05_EXT.jpg" alt="">
-                <img src="https://www.hyundai.com/static/images/lineUp/N/JS05_INT.jpg" alt="">
-                <div>
-                    <label for="car1">Exterior</label>
-                    <label for="int1">interior</label>
-                </div>
-            </div>
-            <div class="text">
-                <h2></h2>
-                <h4></h4>
-                <p></p>
-                <ul>
-                    <li><p>가격</p> <h4></h4></li>
-                    <li><p>연비</p> <h4></h4></li>
-                    <li><p>승차정원</p> <h4></h4></li>
-                    <li><p>배기량</p> <h4></h4></li>
-                </ul>
-                <div class="abox">
-                    <a href="#">자세히 보기</a>
-                    <a href="#">내 차 만들기</a>
-                    <a href="#">구매 상담 신청</a>
+                    <label for="car8">Exterior</label>
+                    <label for="int8">interior</label>
                 </div>
             </div>
         </div>
     </section>
     <footer>
-        <img src="img/footer.jpg" alt="">
+        <img src="img/footer.jpg" width="100" height="60" alt="">
         <div>
             <ul>
-                <li>모바일App</li>
-                <li>저작권안내</li>
-                <li>개인정보 처리방침</li>
+                <li>모바일App</li>|
+                <li>저작권안내</li>|
+                <li>개인정보 처리방침</li>|
                 <li>이용약관</li>
             </ul>
             <ul>
-                <li>윤리경영 사이버 감사실</li>
-                <li>영상정보처리기기 운영관리방침</li>
+                <li>윤리경영 사이버 감사실</li>|
+                <li>영상정보처리기기 운영관리방침</li>|
                 <li>사이트 맵</li>
             </ul>
             <p>고객센터 : 080-600-6000(승용), 080-200-6000(상용)
